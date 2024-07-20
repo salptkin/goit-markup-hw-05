@@ -276,9 +276,9 @@ body {
     justify-content: center;
     height: 112px;
     margin-bottom: 8px;
-    background-color: #f4f4fd;
+    background-color: var(--light);
     border-radius: 4px;
-    border: 1px solid #8e8f99;
+    border: 1px solid var(--subtle-text);
 }
 
 /* TANIMLANAN SECTION-3 ÖZELLİKLERİ */
@@ -293,7 +293,7 @@ body {
 
 .card-wrap {
     padding: 32px 16px;
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--accent);
     border-top: none;
 }
 
@@ -574,7 +574,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark);
     text-align: center;
     margin-bottom: 16px;
     margin-top: 48px;
@@ -594,7 +594,7 @@ body {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8E8F99;
+    color: var(--subtle-text);
     margin-bottom: 4px;
 }
 
@@ -602,7 +602,7 @@ body {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;
+    color: var(--subtle-text);
 }
 
 .modal-form-span {
@@ -629,7 +629,7 @@ body {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #2E2F42;
+    color: var(--dark);
     outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -649,6 +649,7 @@ body {
     left: 16px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .modal-form-checkbox {
@@ -660,9 +661,9 @@ body {
 }
 
 .modal-form-checkbox:checked + .privacy-label .modal-form-span {
-    background-color: #404bbf;
+    background-color: var(--pressed-state);
     border: none;
-    fill: #f4f4fd;
+    fill: var(--light);
 }
 
 .modal-form-link {
